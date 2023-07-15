@@ -15,6 +15,12 @@
     cursor: pointer;
 }
 
+.section-title{
+    font-size: 3rem; 
+    font-weight: 700;
+    color: #131313;
+}
+
 .text-light-gray{
     color: #727272;
 }
@@ -39,12 +45,6 @@
     justify-content: space-between;
     align-items: center;
  }
-
-.nav-title{
-    font-size: 3rem; 
-    font-weight: 700;
-    color: #131313;
-}
 
  nav > ul {
     display: flex;
