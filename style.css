@@ -2,6 +2,20 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&family=Montserrat:wght@600&family=Work+Sans:wght@400;500;600;700;800&display=swap');
 
+    /* shared Styles */
+
+.btn-primary{
+    padding: 20px 25px;
+    border-radius: 8px;
+    background: #FF900E;
+    color: #fff;
+    border: 0;
+    font-size: 1.25rem;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+
 *{
     font-family: 'Lato', sans-serif;
     font-family: 'Montserrat', sans-serif;
@@ -57,6 +71,44 @@
 }
 
 .banner-description{
-
     color: #727272;
+}
+
+
+.banner img{
+    width: 100%;
+    margin-top: 20px;
+}
+
+
+
+
+
+
+
+/* Responsive Media Query   */
+
+ /* Mobile Small Devices  */
+
+@media screen and (max-width:576px) {
+    header{
+        padding: 20px;
+    }
+    nav{
+        flex-direction: column;
+    }
+
+
+}
+ /* tablet or Medium Devices  */
+
+@media screen and (min-width:576px) and (max-width:960px) {
+    header{
+        padding: 40px;
+    }
+    nav{
+        flex-direction: column;
+    }
+
+
 }
